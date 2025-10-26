@@ -1,11 +1,10 @@
 const express = require("express");
-const fs = require("fs").promises;
 const bcrypt = require("bcryptjs");
 const session = require("express-session");
 
 const app = express();
 const path = require("path");
-const fs = require("fs").promises;
+const fs = require("fs").promises
 
 const DATA_FILE = path.join(__dirname, "users.json"); // Use absolute path
 app.use(express.static(path.join(__dirname, "public"))); // Serve frontend
