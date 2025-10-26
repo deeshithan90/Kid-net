@@ -1,0 +1,9 @@
+.b::placeholder{
+    font-weight: bold;
+    border-radius: 25px;
+    color: white;
+}
+.b{
+    font-weight: bold;
+    border-radius: 25px;
+}
