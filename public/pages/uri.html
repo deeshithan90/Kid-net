@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ta">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>V-Talk Tamil Learning</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: "Arial", sans-serif;
+      text-align: center;
+    }
+
+    .header img {
+      width: 130px;
+      margin-top: 10px;
+    }
+
+    .grid {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 30px 0;
+    }
+
+    .card {
+      background-color: green;
+      border-radius: 15px;
+      padding: 15px;
+      width: 140px;
+      margin: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .card:hover {
+      background-color: darkgreen;
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .card p {
+      margin-top: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .cards {
+      background-color: green;
+      border-radius: 15px;
+      padding: 15px;
+      width: 140px;
+      margin: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .cards:hover {
+      background-color: darkgreen;
+      transform: scale(1.05);
+    }
+
+    .cards img {
+      width: 120px;
+      height: auto;
+      border-radius: 10px;
+      height: 130px;
+    }
+
+    .cards p {
+      margin-top: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .cardd {
+      background-color: green;
+      border-radius: 15px;
+      padding: 15px;
+      width: 140px;
+      margin: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .cardd:hover {
+      background-color: darkgreen;
+      transform: scale(1.05);
+    }
+
+    .cardd img {
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+      height: 180px;
+    }
+
+    .cardd p {
+      margin-top: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <img src="../images/Kit Net.png" alt="V-Talk Logo" />
+  </div>
+
+  <div class="grid" style="color:lemonchiffon;
+        font-weight: bold;
+        font-size: 20px;">
+    <div class="card" onclick="amma()">
+      <img src="../image/amma.jpeg" alt="அம்மா" />
+      <p id="tamilText">அம்மா</p>
+    </div>
+    <div class="card">
+      <img src="../image/goat.jpg" alt="அடு" />
+      <p>ஆடு</p>
+    </div>
+    <div class="card">
+      <img src="../image/leaf.jpeg" alt="இலை" />
+      <p>இலை</p>
+    </div>
+    <div class="card">
+      <img src="../image/fly.jpeg" alt="ஈ" />
+      <p>ஈ</p>
+    </div>
+    <div class="cardd">
+      <img src="../image/lizard.jpeg" alt="ஒடும்பு" />
+      <p>ஒடும்பு</p>
+    </div>
+    <div class="card">
+      <img src="../image/ounjal.jpg" alt="ஊஞ்சல்" />
+      <p>ஊஞ்சல்</p>
+    </div>
+    <div class="card">
+      <img src="../image/ant.jpeg" alt="எறும்பு" />
+      <p>எறும்பு</p>
+    </div>
+    <div class="card">
+      <img src="../image/lader.avif" alt="ஏணி" />
+      <p>ஏணி</p>
+    </div>
+    <div class="card">
+      <img src="../image/five.jpeg" alt="ஐந்து" />
+      <p>ஐந்து</p>
+    </div>
+    <div class="cards">
+      <img src="../image/camel.jpeg" alt="ஒட்டகம்" height="160px" />
+      <p>ஒட்டகம்</p>
+    </div>
+    <div class="card">
+      <img src="../image/boat.jpeg" alt="படகு" />
+      <p>படகு</p>
+    </div>
+    <div class="card">
+      <img src="../image/avia.jpeg" alt="விமானம்" />
+      <p>ஔவ்வையார்</p>
+    </div>
+  </div>
+  <div>
+    <button style="background-color: green; padding: 10px; border-radius: 10px; border: none;"><a
+        style="color: white; text-decoration:none ; font-weight: bold;"
+        href="http://localhost:5000/pages/Tamil.html">Back</a></button>
+  </div>
+  <script src="./Tamil.js"></script>
+</body>
+
+</html>
