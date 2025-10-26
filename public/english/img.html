@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="black">
+    <img src="../images/Kit Net.png" width="100px">
+    <br>
+    <center>
+        <h1 style="color: lemonchiffon; text-decoration: underline;">Basic grammer</h1>
+    <table style="border: black 2px solid; column-gap: 10px;color: white; width: 100px;">
+        <tr style="column-gap: 20px; border: white 2px solid;">
+            <td style="column-gap: 20px; border:  white 2px solid;  padding: 20px; color: green; font-weight: bold;">Subject</td>
+            <td style="column-gap: 20px; border: white 2px solid; padding: 20px; color: green; font-weight: bold;">Present</td>
+            <td style="column-gap: 20px; border:  white 2px solid; color: green; font-weight: bold;">past</td>
+            <td style="column-gap: 20px; border:  white 2px solid; color: green; font-weight: bold;">Future</td>
+        </tr>
+        <tr>
+            <td style="column-gap: 20px; border:  white 2px solid; width: 100px; padding: 20px;">I
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid; padding: 20px;">am
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">was
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">wil be
+
+            </td>
+        </tr>
+        <tr>
+            <td style="column-gap: 20px; border: white 2px solid; padding: 20px;">You
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">are
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">were
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">will be
+            </td>
+        </tr>
+        <tr>
+            <td style="column-gap: 20px; border: white 2px solid; padding: 20px;">He
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">is
+
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">was
+
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">will be
+            </td>
+        </tr>
+        <tr>
+            <td style="column-gap: 20px; border: white 2px solid; padding: 20px;">She
+
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">is
+
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">was
+
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">will be
+            </td>
+        </tr>
+        <tr>
+            <td style="column-gap: 20px; border: white 2px solid; padding: 20px;">It
+
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">is
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">was
+
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">will be
+            </td>
+        </tr>
+        <tr>
+            <td style="column-gap: 20px; border: white 2px solid; padding: 20px;">We
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">are
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">were
+
+
+            </td>
+            <td style="column-gap: 20px; border: white 2px solid;padding: 20px; ">will be
+            </td>
+        </tr>
+    </table>
+    <button onclick="">Explain</button>
+    </center>
+</body>
+
+</html>
+
+<script>
+    function speak(text) {
+  if (!('speechSynthesis' in window)) {
+    alert('Sorry, your browser does not support speechSynthesis.');
+    return;
+  }
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = 'en-IN';       // pick a locale you like
+  utter.rate = 1;             // 0.1–10 (1 = normal)
+  utter.pitch = 1;            // 0–2
+  utter.volume = 1;           // 0–1
+  speechSynthesis.cancel();   // stop anything currently speaking
+  speechSynthesis.speak(utter);
+}
+
+function all(){
+    speak("This is as an basic grammer. In this first row Have subject like He. she. It")
+}
+</script>
