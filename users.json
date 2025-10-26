@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1761027658240",
+    "parent": "sathish",
+    "kidName": "deeshithan",
+    "mail": "stiz@gmail.com",
+    "school": "st.jsoesph",
+    "location": "meddavkam",
+    "passwordHash": "$2b$10$apvZJ8HRnyx0GCch1PO6TevkJOCPSeff9cZg57Rx8jSyEBo.hSfLu",
+    "createdAt": "2025-10-21T06:20:58.249Z"
+  },
+  {
+    "id": 1761047606658,
+    "mobile": "8838222626",
+    "parent": "sathish",
+    "kidName": "deeshithan",
+    "mail": "satiz@gmail.com",
+    "school": "st.joseph",
+    "location": "meddavkam",
+    "passwordHash": "$2b$10$3f0MoVU7oWGEEdkPys.o5exFrk7RZRFONQyv39Nqj89Hqj9pnOFaO"
+  }
+]
