@@ -7,7 +7,10 @@ const path = require("path");
 const fs = require("fs").promises
 
 const DATA_FILE = path.join(__dirname, "users.json"); // Use absolute path
-app.use(express.static(path.join(__dirname, "public"))); // Serve frontend
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+
 
 
 // ✅ Middleware
